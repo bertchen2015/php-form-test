@@ -1,6 +1,7 @@
 <?php
 
-if(){//show data
+if(isset($_GET["FirstName"])){//show data
+  echo $_GET["FistName"];
 
 }else{//show form
   echo 
